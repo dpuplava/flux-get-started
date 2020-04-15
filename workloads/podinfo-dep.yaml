@@ -58,6 +58,8 @@ spec:
         env:
         - name: PODINFO_UI_COLOR
           value: "#34577d"
+        - name: PODINFO_UI_MESSAGE
+          value: "Hello k8s flux world"
         livenessProbe:
           httpGet:
             path: /healthz
